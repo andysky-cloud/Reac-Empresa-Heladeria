@@ -1,0 +1,166 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 10%;
+  height: 40%;
+  background-color: #F7C240;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 350px;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 150px;
+}
+
+.iconos {
+  color: #312508e7;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.icono:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.settings {
+  font-size: 30px;
+  color: white;
+  margin-top: auto;
+}
+
+
+.dashboard {
+  flex: 1;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 35px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #555;
+}
+
+
+.buscar {
+  width: 160px;
+  height: 35px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.filtros {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 25px;
+}
+
+.filtros span {
+  color: #777;
+  cursor: pointer;
+}
+
+.filtros span:hover {
+  color: #f2c438;
+}
+
+.filtros .select {
+  color: #f2c438;
+  font-weight: bold;
+}
+
+.contenido {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+
+.cards-con {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+
+.cards {
+  background-color: white;
+  padding: 20px;
+  min-height: 180px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px #c3c1c1;
+  box-sizing: border-box;
+}
+
+.cards h2 {
+  font-size: 20px;
+  color: #555;
+}
+
+.cards p {
+  color: #777;
+}
+
+.cards button {
+  background-color: #f2c438;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.panel {
+  width: 250px;
+  min-height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px #c3c1c1;
+  box-sizing: border-box;
+}
+
+.panel h2 {
+  color: #555;
+}
+
+.panel p {
+  color: #777;
+}
+
+.cards img{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.destacado{
+  border: 3px solid #f2c438;
+}
+
